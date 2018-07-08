@@ -1,0 +1,41 @@
+Arguments: 
+  /home/vagrant/.nvm/versions/node/v8.9.4/bin/node /home/vagrant/.nvm/versions/node/v8.9.4/bin/yarn install
+
+PATH: 
+  /home/vagrant/bin:/home/vagrant/.local/bin:/home/vagrant/.nvm/versions/node/v8.9.4/bin:/home/vagrant/.rvm/gems/ruby-2.3.5/bin:/home/vagrant/.rvm/gems/ruby-2.3.5@global/bin:/home/vagrant/.rvm/rubies/ruby-2.3.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/vagrant/.rvm/bin:/home/vagrant/.rvm/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.9.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EPROTO: protocol error, symlink '../../../he/bin/he' -> '/vagrant/week5/w5d3/sum-all-number-in-array-test-js/node_modules/mocha/node_modules/.bin/he'
+
+npm manifest: 
+  {
+    "name": "sum-array",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "mocha tests.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "chai": "^4.1.2",
+      "mocha": "^4.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
